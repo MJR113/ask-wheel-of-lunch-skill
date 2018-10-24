@@ -1,0 +1,35 @@
+{
+    "interactionModel": {
+      "languageModel": {
+        "invocationName": "wheel of lunch",
+        "intents": [
+          {
+            "name": "GetLunchIntent",
+            "samples": [
+            "I'm hungry",
+            "spin the wheel",
+            "what should i eat",
+            "where should i eat",
+            "give me a recommendation"
+            ]
+          },
+          {
+            "name": "AMAZON.CancelIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.HelpIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.StopIntent",
+            "samples": []
+          },
+          {
+            "name": "AMAZON.FallbackIntent",
+            "samples": []
+          }
+        ]
+      }
+    }
+  }

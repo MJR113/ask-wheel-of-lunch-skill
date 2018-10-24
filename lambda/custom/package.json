@@ -1,0 +1,21 @@
+{
+  "name": "ask-whats-for-lunch-default",
+  "version": "1.0.0",
+  "description": "Dining recommendations for when you're too hungry to think.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "location"
+  ],
+  "dependencies": {
+    "ask-sdk-core": "^2.1.0",
+    "ask-sdk-model": "^1.0.0",
+    "i18next": "^11.9.1",
+    "i18next-sprintf-postprocessor": "^0.2.2",
+    "yelp-fusion": "^2.2.1"
+  }
+}
